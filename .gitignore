@@ -1,0 +1,57 @@
+# ======================
+# 🔐 ENV & SECRETS
+# ======================
+.env
+
+# ======================
+# 🧠 AI MODELS (BIG FILES)
+# ======================
+*.onnx
+*.pt
+*.bin
+
+# ======================
+# 📦 PYTHON
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# ======================
+# 🧪 CACHE / TEMP
+# ======================
+hf_cache/
+.cache/
+*.log
+tmp/
+temp/
+
+# ======================
+# 🎧 GENERATED FILES
+# ======================
+static/audio/
+static/stories/
+static/bbox_data/
+backend/static/
+
+# ======================
+# 🖥️ OS FILES
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# 🧰 IDE
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# 📦 FLUTTER (if same repo)
+# ======================
+build/
+.dart_tool/
